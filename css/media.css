@@ -1,0 +1,151 @@
+@media (min-width:768px) {
+    .hero-container {
+        padding: 16px 24px;
+    }
+
+    .swiper-title {
+        font-size: 31px;
+    }
+
+    .swiper-navigation {
+        display: block;
+    }
+
+    .swiper-container {
+        padding: 16px 16px;
+    }
+
+    .text-new {
+        display: none;
+    }
+
+    .swiper-span-first {
+        height: 150px;
+        margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        background-image: url('https://i.ibb.co/Fmv54YD/Rectangle-2.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+        
+    }
+    
+    .swiper-span-second {
+        height: 150px;
+        margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        background-image: url('https://i.ibb.co/Fmv54YD/Rectangle-2.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+    }
+    
+    .swiper-span-third {
+        height: 150px;
+        margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        background-image: url('https://i.ibb.co/Fmv54YD/Rectangle-2.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+    }
+    
+    .swiper-span-fourth {
+        height: 150px;
+        margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        background-image: url('https://i.ibb.co/Fmv54YD/Rectangle-2.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+    }
+
+    .swiper-item-old {
+        display: none;
+    }
+
+    .swiper-btn {
+        width: auto;
+        padding: 16px 24px;
+    }
+
+    .swiper-like {
+        position: initial;
+        top: 22px;
+        right: 47px;
+    }
+    
+    .swiper-more {
+        position: initial;
+        top: 23px;
+        right: 21px;
+    }
+}
+
+@media (min-width:1024px) {
+    .hero-container {
+        padding: 24px 40px;
+    }
+
+    .swiper {
+        overflow: hidden !important;
+    }
+
+    .swiper-navigation {
+        width: 10%;
+    }
+
+    .swiper-span-first {
+        flex-direction: row;
+        background-image: url('https://i.ibb.co/Fmv54YD/Rectangle-2.jpg');
+    }
+    
+    .swiper-span-second {
+        flex-direction: row;
+        background-image: url('https://i.ibb.co/Cz4990r/Rectangle-3.jpg');
+    }
+    
+    .swiper-span-third {
+        flex-direction: row;
+        background-image: url('https://i.ibb.co/mqHWf4c/Rectangle-4.jpg');
+    }
+    
+    .swiper-span-fourth {
+        flex-direction: row;
+        background-image: url('https://i.ibb.co/FBCYs3n/Rectangle-5.jpg');
+    }
+
+    .text-new {
+        margin-right: 8px;
+        display: block;
+        height: fit-content;
+    }
+
+    .text-hit {
+        height: fit-content;
+    }
+
+    .swiper-item-old {
+        display: block;
+    }
+}
+
+@media (min-width:1128px) {
+    .swiper-item-new, .swiper-item-old {
+        white-space: nowrap;
+    }
+
+    .swiper-item-new {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .swiper-navigation {
+        width: 8%;
+    }
+}
